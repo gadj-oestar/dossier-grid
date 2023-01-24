@@ -1,0 +1,436 @@
+@charset"UTF-8";
+*{
+  box-sizing: border-box;  
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+        grid-template-rows: auto;
+
+
+}
+h1{
+    font-family: 'Times New Roman';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header ul{
+    grid-column: 8/ span 4;
+    grid-row: 1;
+    
+   
+}
+.header ul li {
+    
+    text-decoration: none;
+    color: black;
+    width: 65px;
+    height: 65px;
+    padding-top: 26px;
+    text-align: center;
+    background-color: white;
+    font-size: 0.8rem; 
+    border-radius: 50%; 
+    display: inline-block;
+
+}
+.header ul li a{
+    color: black;
+    text-decoration: none;
+}
+.header ul li a:hover{
+    color: white;
+}
+
+ .header ul li:hover{
+    background-color: rgb(223, 12, 12);
+    
+}
+main{
+ padding: 20px;
+}
+
+
+#container{
+    border: 2px solid pink;
+    background-image: url("../img/bg-content.jpg");
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    border: 8px solid gray;
+    height: 392px;
+    position: relative;
+}
+
+.a{
+    background-image: url("../img/slide-1.jpg");
+     background-repeat: no-repeat;
+     position: relative;
+     
+}
+.b{
+    background-image: url("../img/slide-2.jpg");
+    background-repeat: no-repeat;
+     position: relative;
+}
+.c{
+    background-image: url("../img/slide-3.jpg");
+    background-repeat: no-repeat;
+     position: relative;
+}
+
+.d{
+    background-image: url("../img/slide-4.jpg");
+    background-repeat: no-repeat;
+     position: relative;
+}
+
+.e{
+    background-image: url("../img/slide-5.jpg");
+    background-repeat: no-repeat;
+     position: relative;
+}
+   
+
+.slider div:hover{
+    cursor: pointer;
+    z-index: 1;
+}
+.slider:hover{
+    opacity: 1;
+}
+
+ 
+.welcome h1{
+    padding-left: 30px;
+    font-size: 2rem;
+    color: white;
+}
+.welcome p{
+    padding-left: 30px;
+    color: rgb(171, 171, 171);
+}
+.souswelcome{
+    text-decoration: none;
+    color: red;
+}
+
+.bro{
+    border: 10px solid black;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    background-color: black;
+
+
+}
+.bro p{
+    color: white;
+}
+.bro button {
+    background-color: red;
+    width: 30%;
+}
+.bro button a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.6rem;
+
+}
+
+.fashon{
+    grid-column: 1/ span 3;
+    grid-row: 1;
+    padding: 20px;
+    
+}
+.fashon h1{
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 30px;
+}
+.fashon figure img{
+    width: 100%;
+   
+   }
+
+   .fashon p{
+    padding-left: 30px;
+    font-size: 0.7rem;
+    width: 90%;
+
+   }
+  
+.nature{
+    grid-column: 4/ span 3;
+    grid-row: 1;
+    padding: 20px;
+
+}
+.nature h1{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 30px;
+}
+
+.nature figure img{
+    width: 100%;
+    height: 20vh;
+}
+
+.nature p{
+    font-size: 0.7rem;
+    width: 80%;
+    padding-left: 30px;
+
+    
+}
+.lovestory{
+    grid-column: 7 / span 3;
+    grid-row: 1;
+    padding: 20px;
+
+
+}
+.lovestory  h1{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 30px;
+
+}
+.lovestory figure img{
+    width: 100%;
+    height: 20vh;
+}
+.lovestory p{
+    font-size: 0.7rem;
+    width: 80%;
+    padding-left: 30px;
+}
+
+.fineart{
+    grid-column: 10/ span 3;
+    grid-row: 1;
+    padding: 20px;
+
+}
+.fineart h1{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 30px;
+}
+ .fineart figure img{
+    width: 100%;
+    height: 20vh;
+
+ }
+ .fineart p{
+    font-size: 0.7rem;
+    padding-left: 30px;
+    width: 90%;
+
+
+ }
+
+#bro2{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+   
+
+}
+
+.un{
+    grid-column: 1/ span 3;
+    grid-row: 1;
+    padding: 20px;
+}
+.un h1{
+    font-size: 1.6rem;
+    color: white;
+    padding-left: 50px;
+}
+.un figure img{
+    width: 100%;
+    height: auto;
+}
+
+.deux{
+    grid-column: 4/ span 3;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    padding: 20px;
+    
+}
+
+.paragraphe{
+    color: white;
+    padding-top: 70px;
+    margin: 0;
+}
+.bizarre{
+   color:rgb(128, 128, 128);
+}
+.sousdeux{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+hr{
+   background-color:rgb(40, 40, 40);
+   width: 100%;
+   height: 0.2vh;
+   border: none;
+   position: relative;
+   left: -1
+   0%;
+
+}
+.sousdeux ul li{
+    list-style-type:circle;
+    color: rgb(248, 73, 57);
+}
+.soso{
+       grid-column: 1/ span 6;
+       grid-row: 2;
+}
+
+.maes{
+    grid-column: 3/ span 6;
+    grid-row: 2;
+}
+.gallerie{
+grid-column: 7/ span 6;
+grid-row: 1;
+padding-top: 40px;
+}
+
+.gallerie h1{
+    font-size: 2rem;
+    padding: 0;
+    margin: 15px;
+    color: white;
+    grid-column: 1/ span 12;
+    grid-row: 1;
+}
+.miniature{width:24%;
+padding:1%;}
+.miniature:hover{
+    background-color: red;
+}
+
+footer{
+    display: grid;
+    height: 30vh;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+}
+.design{
+       grid-column: 1/ span 6;
+    grid-row: 1;
+
+}
+
+.reseau{
+
+    grid-column: 10 / span 3;
+    grid-row: 1;
+    display: inline-block;
+    
+}
+
+
+.sprite1{
+    background-image: url("../img/soc-icon-1.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s;
+    background-position: 0 0;
+    display: inline-block;
+
+}
+.sprite1:hover{
+    background-position: 0 -30px;
+}
+.sprite2{
+    background-image: url("../img/soc-icon-2.png");
+    background-repeat: no-repeat;
+    width:30px;
+    height: 30px;
+    transition: all 0.4s;
+    background-position: 0 0;
+    display: inline-block;
+}
+.sprite2:hover{
+    background-position: 0 -30px ;
+}
+
+.sprite3{
+    background-image: url("../img/soc-icon-3.png");
+    background-repeat: no-repeat;
+    width:30px;
+    height: 30px;
+    transition: all 0.4s;
+    background-position: 0 0;
+    display: inline-block;
+}
+.sprite3:hover{
+    background-position: 0 -30px ;
+}
+.sprite4{
+    background-image: url("../img/soc-icon-4.png");
+    background-repeat: no-repeat;
+    width:30px;
+    height: 30px;
+    transition: all 0.4s;
+    background-position: 0 0;
+    display: inline-block;
+}
+.sprite4:hover{
+    background-position: 0 -30px ;
+}
+
+.boitier{
+    width: 120px;
+    height: 87px;
+    display: inline-block;
+    padding:15px;
+    position:relative;
+    grid-column: 1/ span;
+}
+figure{padding:0;
+margin:0;}
+.trois{
+   
+    left:0;
+    top:0;
+    position: absolute;
+    width: 120px;
+    height: 87px;
+   }
+.quatre{
+   
+    position: absolute;
+    top:-3px;
+    z-index: 2;
+    left:0;
+    width: 120px;
+    height: 87px;
+   text-align: center;
+  padding-top:25px;
+    background-color: black;
+    display: none;
+   
+    opacity:0.5;
+}
+.boitier:hover .quatre{
+    display: block;
+    cursor:pointer;
+}

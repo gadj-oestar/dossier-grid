@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*CSS document*/
+*{box-sizing:border-box;}
+/*ON BIG SCREEN*/
+/*WRAPPER*/
+#hamnav{
+	width: 100%;
+	background-color:#000;
+	/*Optimal*/
+	top:0;
+	}
+
+/*je cache mon hamburger Hamburger */
+#hamnav label, #hamburger{
+						display: none;
+					}
+
+/*Horizontal Menu items*/
+#hamitems{display:flex;}
+
+#hamitems a{
+	width: 20%;/*100% / 5 tabs =20%*/
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+#hamitems a:hover{
+	background-color: #401408;
+}
+
+/*ON SMALL SCREENS*/
+@media screen and (max-width: 768px){
+	/*Show Hamburger Icon*/
+	#hamnav label {
+		display: inline-block;
+		color: white;
+		background-color: #a02620;
+		font-style: normal;
+		font-size: 1.2em;
+		padding: 10px;
+		}
+
+
+/*Break down menu items into vertical*/
+#hamitems a{
+	display: block;
+	width: 100%;
+	border-top: 1px solid #333;
+}
+
+/*SHow Hide Menu*/ /*  Show/Hide Menu */
+  #hamitems { display: none;}
+  #hamnav input:checked ~ #hamitems { display:block;}
+}
+
+
+
+
+
